@@ -12,6 +12,15 @@ defmodule JtCodeOracle do
       :world
 
   """
+  defmodule Codeowners do
+    defmacro __using__(_options) do
+      filename = __CALLER__.file
+      quote do
+        def __codeowner__, do: unquote(filename)
+      end
+    end
+  end
+
   def hello do
     :world
   end
@@ -19,5 +28,4 @@ defmodule JtCodeOracle do
   def hi do
     "testing"
   end
-
 end
