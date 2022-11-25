@@ -21,6 +21,10 @@ defmodule JtCodeOracle do
     end
   end
 
+  def getMeta do
+    %{"page": 1,"per_page": 33,"total_count": 7,"total_pages": 2}
+  end
+
   def hello do
     :world
   end
