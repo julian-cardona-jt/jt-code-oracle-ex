@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: jt-code-oracle-ex
-  description: julian-cardona-jt/jt-code-oracle-ex
+  description: jt-code-oracle-ex in branch
   annotations:
     github.com/project-slug: julian-cardona-jt/jt-code-oracle-ex
 spec:
