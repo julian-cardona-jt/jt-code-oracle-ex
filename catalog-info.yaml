@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jt-code-oracle-ex
+  description: julian-cardona-jt/jt-code-oracle-ex
+  annotations:
+    github.com/project-slug: julian-cardona-jt/jt-code-oracle-ex
+spec:
+  type: service
+  owner: jobandtalent/devex
+  lifecycle: experimental
